@@ -21,7 +21,7 @@
 </p>
 
 <p>
-	{{jason}}
+	{{jason.firstName}} {{jason.lastName}}
 </p>
 
 <p>
@@ -37,10 +37,10 @@
 
 
 
-<p id="text">
-  Iserting text...
+<p [class] ="color">
+  Iserting text...to change text color using a button event
 </p>
 
 <!-- Event Binding -->
-<button (click)='changeColor()'>{{jason.firstName}} {{jason.lastName}}</button>
+<button (click)='changeColor()'>Change Text Color</button>
 

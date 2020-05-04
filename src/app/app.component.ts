@@ -22,28 +22,22 @@ export class AppComponent {
   family = ['mom', 'dad', 'sister', 'brother', 'dog']
   url = 'https://www.google.com'
   linkText = 'Click Me'
-  // color = 'blue';
+  color = 'blue';
 
   // METHODS
-  
+
   //!!!!need to have the button alert details about Jason as the alert message First Name: Jason etc.
   clickAlert() {
     console.log("This was clicked!");
     alert("This is Jason Bourne");
   }
 
+  //!!!need to edit to it toggles between two colors
   changeColor() {
     console.log("you just changed the text color! and the favFruit!")
-    this.favFruit = "banana";
-    this.name = "super Angular";
+    // this.favFruit = "banana";
+    this.color = "green";
   }
-
-//figure out how to better interpolate Arrays. 
-  // clickAlert1() {
-  // console.log(this.jason.firstName);
-  // alert(this.jason.firstName);
-  // }
-
 
 }
 
