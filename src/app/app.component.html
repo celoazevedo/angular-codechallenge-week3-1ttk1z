@@ -1,4 +1,5 @@
 <hello name="{{ name }}"></hello>
+
 <p>
 	{{isTrue}}
 </p>
@@ -7,11 +8,9 @@
 	{{multiply}}
 </p>
 
-
 <p>
 	{{timesSkydive}}
 </p>
-
 
 <p>
 	{{subtract}}
@@ -24,18 +23,22 @@
 <p>
 	{{jason}}
 </p>
+
 <p>
 	{{family}}
 </p>
 
+<!-- Property Binding -->
 <a href="{{url}}">{{linkText}}</a>
 
-<br/>
-	<br/>
+<br>
 
-		<button (click)='alert()'>Submit</button>
+<button (click)='clickAlert()'>Submit</button>
 
-<p id="name">
-  Willie
+<p id="text">
+  Iserting text...
 </p>
-<button (click)='changeText()' [style.color] = "color">Change Color</button>
+
+<!-- Event Binding -->
+<button (click)='changeColor()'>{{jason.firstName}} {{jason.lastName}}</button>
+
