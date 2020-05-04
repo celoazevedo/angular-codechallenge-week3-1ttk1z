@@ -25,9 +25,11 @@ export class AppComponent {
   // color = 'blue';
 
   // METHODS
+  
+  //!!!!need to have the button alert details about Jason as the alert message First Name: Jason etc.
   clickAlert() {
     console.log("This was clicked!");
-    alert("Hello! You clicked THE button. ")
+    alert("This is Jason Bourne");
   }
 
   changeColor() {
